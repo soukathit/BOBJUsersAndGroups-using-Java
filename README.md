@@ -6,9 +6,11 @@ To Deploy the BI Semantic Layer Java SDK in a Non-OSGI Eclipse Configuration
 
 https://help.sap.com/viewer/4359a0ef221e4a1098bae432bdd982c1/4.2.3/en-US/45f1ee226e041014910aba7db0e91070.html
 
-The main file to run is BOBJUsersAndGroupsMain.java under src\com\tutorialspot\demo\hr\model folder.
-Create the project folder by following the below steps.
+Create the project folder by following the steps in the above mentioned URL
 
+The main file to run is BOBJUsersAndGroupsMain.java under src\com\tutorialspot\demo\hr\model folder.
+
+Please follow the below steps to export the project into executable JAR files. This is tested successfully in linux environment.
 1. Right Click on the project folder in Eclipse -> Export
 2. Java-> Runnable JAR File
 3. Select the main class file BOBJUsersAndGroupsMain under Launch Configuration
@@ -18,7 +20,9 @@ Create the project folder by following the below steps.
 
 The users and groups are loaded into a SAP HANA database. Any database can be used to stored the data. We need to use the respective jdbc JAR files for the program to work.
 
-The java program can be executed by running the shell script from the config files folder.
+The java program can be executed by running the shell script from the config files folder (BOBJUSersAndGroups_Script.sh). Please modify the shell sript to add the path of the JAR files and BOBJUsersAndGroupsMain.properties properties file.
+
+The SAP BOBJ CMC URL , username and  password needs to be provided in the BOBJUsersAndGroupsMain.properties folder. The authentication it uses is Enterprise.
 
 
 
