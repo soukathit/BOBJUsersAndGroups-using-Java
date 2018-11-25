@@ -26,6 +26,11 @@ The java program can be executed by running the shell script from the config fil
 
 The SAP BOBJ CMC URL , username and  password needs to be provided in the BOBJUsersAndGroupsMain.properties folder. The authentication it uses is Enterprise.
 
+create three tables in the database.
+1.bobj_users - To store the User Ids in the BOBJ system
+2.bobj_roles - To store the roles created in the BOOBJ system
+3.bobj_user_roles - To store the user id and role id in the bobj system
+
 
 
 
