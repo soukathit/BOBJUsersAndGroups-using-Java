@@ -18,6 +18,8 @@ Please follow the below steps to export the project into executable JAR files. T
 5. Under Library Handling - Copy the required files into a sub-folder next to the generated JAR
 6. Click Next and Finish.
 
+All the complied JAVA files will be avaiable in the bin folder that gets generated.
+
 The users and groups are loaded into a SAP HANA database. Any database can be used to stored the data. We need to use the respective jdbc JAR files for the program to work.
 
 The java program can be executed by running the shell script from the config files folder (BOBJUSersAndGroups_Script.sh). Please modify the shell sript to add the path of the JAR files and BOBJUsersAndGroupsMain.properties properties file.
