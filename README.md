@@ -31,7 +31,33 @@ create three tables in the database.
 2.bobj_roles - To store the roles created in the BOOBJ system
 3.bobj_user_roles - To store the user id and role id in the bobj system
 
+CREATE TABLE BOBJ_USERS
+(
+USER_ID varchar(4000),
+USER_NAME varchar(4000),
+USER_FULL_NAME varchar(4000),
+USER_EMAIL_ADDRESS varchar(4000),
+SERVER_NAME varchar(4000),
+LOAD_DATE varchar(4000)
+)
 
+CREATE TABLE BOBJ_ROLES
+(
+ROLE_ID varchar(4000),
+ROLE_NAME varchar(4000),
+ROLE_DESCRIPTION varchar(4000),
+LOAD_DATE varchar(4000),
+SERVER_NAME varchar(4000)
+)
+
+
+CREATE TABLE BOBJ_USER_ROLES
+(
+USER_ID varchar(4000),
+ROLE_ID varchar(4000),
+SERVER_NAME varchar(4000),
+LOAD_DATE varchar(4000)
+)
 
 
 
