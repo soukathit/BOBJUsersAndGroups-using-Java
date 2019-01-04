@@ -6,6 +6,11 @@ To Deploy the BI Semantic Layer Java SDK in a Non-OSGI Eclipse Configuration
 
 https://help.sap.com/viewer/4359a0ef221e4a1098bae432bdd982c1/4.2.3/en-US/45f1ee226e041014910aba7db0e91070.html
 
+All the required External JAR files needs to be added in the Configure Build Path in Eclipse.
+
+1. C:\Program Files (x86)\SAP BusinessObjects\SAP BusinessObjects Enterprise XI 4.0\java\lib
+2. C:\Program Files (x86)\SAP BusinessObjects\SAP BusinessObjects Enterprise XI 4.0\SL SDK\java
+
 Create the project folder by following the steps in the above mentioned URL
 
 The main file to run is BOBJUsersAndGroupsMain.java under src\com\tutorialspot\demo\hr\model folder.
